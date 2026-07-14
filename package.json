@@ -1,0 +1,8 @@
+{
+  "name": "thecollegecloset",
+  "description": "Static storefront for The College Closet — secondhand college apparel resale.",
+  "private": true,
+  "scripts": {
+    "serve": "python3 -m http.server 8080"
+  }
+}
