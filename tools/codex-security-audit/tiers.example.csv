@@ -1,0 +1,15 @@
+# Copy to tiers.csv and fill in. tiers.csv is gitignored on purpose: it names
+# private repositories, and this showcase repository is public.
+#
+# id    unique, [A-Za-z0-9][A-Za-z0-9._-]{0,127} — no slashes
+# repo  repository name under $OWNER (default Harrywolf23)
+# tier  A | B | C  — A: handles money/auth/PII or is publicly reachable
+#                   B: tooling and automation
+#                   C: notes, config, coursework — cheap sweep or skip
+# mode  standard | deep   (deep costs materially more; reserve it for tier A)
+# scope optional repo-relative subdirectory to narrow the scan
+#
+id,repo,tier,mode,scope
+example-payments,example-payments-repo,A,deep,
+example-tooling,example-tooling-repo,B,standard,
+example-notes,example-notes-repo,C,standard,

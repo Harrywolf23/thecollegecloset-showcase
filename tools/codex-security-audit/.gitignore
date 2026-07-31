@@ -1,0 +1,9 @@
+# Never commit: names private repositories.
+tiers.csv
+
+# Never commit: local checkouts, scan state, and real vulnerability findings.
+work/
+results*/
+exports*/
+*.sarif
+findings.json
