@@ -4,12 +4,13 @@ A storefront for secondhand college apparel — hoodies, crewnecks, and tees res
 donated between students. Buyers browse a catalog filtered by school; sellers submit items through
 an intake form for manual review before anything is listed.
 
-**Live site:** <https://thecollegecloset.com>
+**Site:** <https://harrywolf23.github.io/thecollegecloset-site/> — a static copy on GitHub Pages. The
+original `thecollegecloset.com` domain has lapsed.
 
 ## Stack
 
-Static site, no framework and no build step — plain HTML, CSS, and vanilla JavaScript, deployed on
-Vercel.
+Static site, no framework and no build step — plain HTML, CSS, and vanilla JavaScript. Originally
+deployed on Vercel; a static copy now runs on GitHub Pages.
 
 | File | Role |
 | --- | --- |
